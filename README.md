@@ -28,7 +28,7 @@ Name_2: Yanyu Zhang (U47793163)
 
 - [连续3个月的暴乱重创香港旅游业，8月访港旅客较去年急跌近40%，有酒店“十室九空”。即将到来的十一黄金周，旅游业界人士预测访港团数将较去年同期减少超70%！业界怒斥搞事者存心制造经济大灾难！香港两大主题乐园，迪士尼和海洋公园，人烟稀少.]
 [The riots for three consecutive months have hit Hong Kong's tourism industry. In August, visitors to Hong Kong plunged nearly 40% compared with last year. There are hotels with ten rooms and nine airspaces. In the upcoming National Day, the travel industry will be reduced by 70% compared with the same period last year! The industry is angry at the troublemakers to create an economic catastrophe! Hong Kong's two major theme parks, Disney and Ocean Park, are sparsely populated.]
-<img src= "D:\EC601\sentimentcomment1.png">
+<img src= "https://github.com/zhangyanyu0722/Mini-project-1/blob/master/sentimentcomment1.png">
 
 - [还记得前不久四川地震预警倒计时吗，目前提前数秒已到极限。此前，科学家在模拟地震中发现了“前震”的存在，现实中却一直没有实锤。最近，在分析了几百万份高分辨率地震数据后，终于与实验相吻合了！这将是实现地震预警的一大飞跃]
 [Do you remember the countdown to the Sichuan earthquake warning? And it has reached a few seconds ahead of time. Previously, scientists discovered the existence of “existing earthquakes” in simulated earthquakes. In reality, there has been no real hammer. Recently, after analyzing millions of high-resolution seismic data, it finally coincided with the experiment! This will be a big achievement in achieving earthquake warning]

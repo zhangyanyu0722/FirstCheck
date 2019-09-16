@@ -34,7 +34,7 @@
 
 - [还记得前不久四川地震预警倒计时吗，目前提前数秒已到极限。此前，科学家在模拟地震中发现了“前震”的存在，现实中却一直没有实锤。最近，在分析了几百万份高分辨率地震数据后，终于与实验相吻合了！这将是实现地震预警的一大飞跃]
 [Do you remember the countdown to the Sichuan earthquake warning? And it has reached a few seconds ahead of time. Previously, scientists discovered the existence of “existing earthquakes” in simulated earthquakes. In reality, there has been no real hammer. Recently, after analyzing millions of high-resolution seismic data, it finally coincided with the experiment! This will be a big achievement in achieving earthquake warning]
-<img align= "center" src= " ">
+<img align= "center" src= "https://github.com/zhangyanyu0722/Mini-project-1/blob/master/sentimentcomment2.png">
 
 - [Thank you; what is really needed is the evacuation of the people of Abaco and Freeport. Can you help with that? Abaco is not going to be habitable for months, if ever.The people have no shelter, no way of preparing food,no sewer, no future there. #EvacuationNeeded #BahamasRelief]
 <img align= "center" src= "https://github.com/zhangyanyu0722/Mini-project-1/blob/master/sentimentcomment3.png">

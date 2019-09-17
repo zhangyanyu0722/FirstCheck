@@ -27,9 +27,10 @@
 - The user will then choose to take action if the poster is deemed to be unsafe.
 - If the tweet’s sentiment is considered safe, the app will continue through to the next tweet until one is determined to be unsafe.
 
-## Analysis of Twitter API, Google Vision, and Google Natural Language API
+## Types of Twitter feeds we’re interested in
 
-- When inputting tweets about natural disasters into the natural language API, Google frequently focused on the name of the disaster instead of the type first. For example, in our selections below, the tweets about the recent Hurricane Dorian were recognized as a person instead of a hurricane. We would like to have our API focus on the fact that it is a hurricane first and foremost in order to get through to our filtering process.
+- Posters after natural disasters
+- First responders looking for backup
 
 ## Twitter feed examples with sentiment
 
@@ -63,12 +64,11 @@
   <img src= "https://github.com/zhangyanyu0722/Mini-project-1/blob/master/picture/sentimentcomment5.png">
 </p>
 
-## Types of Twitter feeds we’re interested in
+## Analysis of Twitter API, Google Vision, and Google Natural Language API
 
-- Posters after natural disasters
-- First responders looking for backup
-
-
+<p align="center">
+  When inputting tweets about natural disasters into the natural language API, Google frequently focused on the name of the disaster instead of the type first. For example, in our selections below, the tweets about the recent Hurricane Dorian were recognized as a person instead of a hurricane. We would like to have our API focus on the fact that it is a hurricane first and foremost in order to get through to our filtering process.
+</p>
 
 
 

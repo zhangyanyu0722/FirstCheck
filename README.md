@@ -34,8 +34,7 @@
   <img src= "https://github.com/zhangyanyu0722/Mini-project-1/blob/master/picture/sentimentcomment1.png">
 </p>
 
-- [还记得前不久四川地震预警倒计时吗，目前提前数秒已到极限。此前，科学家在模拟地震中发现了“前震”的存在，现实中却一直没有实锤。最近，在分析了几百万份高分辨率地震数据后，终于与实验相吻合了！这将是实现地震预警的一大飞跃]
-[Do you remember the countdown to the Sichuan earthquake warning? And it has reached a few seconds ahead of time. Previously, scientists discovered the existence of “existing earthquakes” in simulated earthquakes. In reality, there has been no real hammer. Recently, after analyzing millions of high-resolution seismic data, it finally coincided with the experiment! This will be a big achievement in achieving earthquake warning]
+- [还记得前不久四川地震预警倒计时吗，目前提前数秒已到极限。此前，科学家在模拟地震中发现了“前震”的存在，现实中却一直没有实锤。最近，在分析了几百万份高分辨率地震数据后，终于与实验相吻合了！这将是实现地震预警的一大飞跃]<br>[Do you remember the countdown to the Sichuan earthquake warning? And it has reached a few seconds ahead of time. Previously, scientists discovered the existence of “existing earthquakes” in simulated earthquakes. In reality, there has been no real hammer. Recently, after analyzing millions of high-resolution seismic data, it finally coincided with the experiment! This will be a big achievement in achieving earthquake warning]
 
 <p align="center">
   <img src= "https://github.com/zhangyanyu0722/Mini-project-1/blob/master/picture/sentimentcomment2.png">
@@ -59,7 +58,7 @@
   <img src= "https://github.com/zhangyanyu0722/Mini-project-1/blob/master/picture/sentimentcomment5.png">
 </p>
 
-## Types of Twitter feeds we’re interested in:
+## Types of Twitter feeds we’re interested in
 
 - Posters after natural disasters
 - First responders looking for backup

@@ -1,9 +1,9 @@
-# Mini-project-1
+# Mini-project-1 Tweet-Aid
 
 ## Group Numbers
 
-- Name_1: Jennifer Campbell (U48001098)
-- Name_2: Yanyu Zhang (U47793163)
+- Jennifer Campbell (U48001098)
+- Yanyu Zhang (U47793163)
 
 ## User Stories
 

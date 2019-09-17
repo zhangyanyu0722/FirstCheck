@@ -18,7 +18,7 @@
 - I, a manager of a travel agency, want to know how to design tour route to avoid the disaster
 - I, the farmer, want to know when the disaster will happen in this area and take some measurements to protect crops
 
-## Architecture
+## How it works
 
 - When you open the app, you enter the identity of user and name (city, district, county, etc.) of the location you are trying to investigate.
 - After selecting location, designate which type of disaster you are concerned with investigating.
@@ -27,7 +27,7 @@
 - The user will then choose to take action if the poster is deemed to be unsafe.
 - If the tweet’s sentiment is considered safe, the app will continue through to the next tweet until one is determined to be unsafe.
 
-## Types of Twitter feeds we’re interested in
+## Types of Twitter feeds being focused on
 
 - Posters after natural disasters
 - First responders looking for backup

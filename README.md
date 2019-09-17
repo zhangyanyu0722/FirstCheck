@@ -7,7 +7,7 @@
 
 ## User Stories
 
-- I, the first response team, want to know when people need emergency assistance when a natural disaster happens . 
+- I, the first response team, want to know when people need emergency assistance when a natural disaster happens
 - I, the family member, want to know when my family is safe/not safe, when a disaster is in their area
 - I, the ordinary person, want to know when the disaster will occur in my city/district, and how to take refuge and change the schedule
 - I, a manager of a travel agency, want to know how to design tour route to avoid the disaster
@@ -29,6 +29,7 @@
 ## Twitter feed examples with sentiment
 
 - [连续3个月的暴乱重创香港旅游业，8月访港旅客较去年急跌近40%，有酒店“十室九空”。即将到来的十一黄金周，旅游业界人士预测访港团数将较去年同期减少超70%！业界怒斥搞事者存心制造经济大灾难！香港两大主题乐园，迪士尼和海洋公园，人烟稀少.]
+<br>
 [The riots for three consecutive months have hit Hong Kong's tourism industry. In August, visitors to Hong Kong plunged nearly 40% compared with last year. There are hotels with ten rooms and nine airspaces. In the upcoming National Day, the travel industry will be reduced by 70% compared with the same period last year! The industry is angry at the troublemakers to create an economic catastrophe! Hong Kong's two major theme parks, Disney and Ocean Park, are sparsely populated.]
 
 <p align="center">

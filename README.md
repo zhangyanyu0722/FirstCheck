@@ -20,12 +20,12 @@
 
 ## How it works
 
-- When you open the app, you enter the identity of user and name (city, district, county, etc.) of the location you are trying to investigate.
-- After selecting location, designate which type of disaster you are concerned with investigating.
-- The app will then filter through tweets that contain terms relating to: 1st. Location; 2nd. Disaster.
-- Using natural language API, the sentiment will determine whether the poster of the tweet is in need of assistance or is safe.
-- The user will then choose to take action if the poster is deemed to be unsafe.
-- If the tweet’s sentiment is considered safe, the app will continue through to the next tweet until one is determined to be unsafe.
+1. When you open the app, you enter the identity of user and name (city, district, county, etc.) of the location you are trying to investigate.
+2. After selecting location, designate which type of disaster you are concerned with investigating.
+3. The app will then filter through tweets that contain terms relating to: 1st. Location; 2nd. Disaster.
+4. Using natural language API, the sentiment will determine whether the poster of the tweet is in need of assistance or is safe.
+5. The user will then choose to take action if the poster is deemed to be unsafe.
+6. If the tweet’s sentiment is considered safe, the app will continue through to the next tweet until one is determined to be unsafe.
 
 ## Types of Twitter feeds being focused on
 

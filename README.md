@@ -7,7 +7,7 @@
 
 ## User Stories
 
-- I, the first response team, want to know when people need emergency assistance when a natural disaster happens
+- I, the first response team, want to know when people need emergency assistance when a natural disaster happens . 
 - I, the family member, want to know when my family is safe/not safe, when a disaster is in their area
 - I, the ordinary person, want to know when the disaster will occur in my city/district, and how to take refuge and change the schedule
 - I, a manager of a travel agency, want to know how to design tour route to avoid the disaster

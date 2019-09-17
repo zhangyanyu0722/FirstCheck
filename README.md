@@ -1,6 +1,6 @@
 # Mini-project-1: Tweet-Aid
 
-## Group Numbers
+## Team Members
 
 - Jennifer Campbell (U48001098)
 - Yanyu Zhang (U47793163)

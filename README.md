@@ -1,4 +1,4 @@
-# Mini-project-1 Tweet-Aid
+# Mini-project-1: Tweet-Aid
 
 ## Group Numbers
 

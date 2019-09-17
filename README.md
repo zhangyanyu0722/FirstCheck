@@ -5,6 +5,11 @@
 - Jennifer Campbell (U48001098)
 - Yanyu Zhang (U47793163)
 
+## Project Mission
+<p align="center">
+  In order to bridge emergency response communications across social media platforms, our team is working to build a filtering app that allows for users to view tweets related to disasters happening in a selected location.
+</p>
+
 ## User Stories
 
 - I, the first response team, want to know when people need emergency assistance when a natural disaster happens

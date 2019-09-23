@@ -26,6 +26,14 @@
 4. Using natural language API, the sentiment will determine whether the poster of the tweet is in need of assistance or is safe.
 5. The user will then choose to take action if the poster is deemed to be unsafe.
 6. If the tweet’s sentiment is considered safe, the app will continue through to the next tweet until one is determined to be unsafe.
+<p align="center">
+  <img src= "https://github.com/zhangyanyu0722/Mini-project-1/blob/jennifercampbell/flowchart.png">
+</p>
+
+
+
+
+
 
 ## Types of Twitter feeds being focused on
 

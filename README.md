@@ -65,9 +65,7 @@
 
 ## Analysis of Twitter API, Google Vision, and Google Natural Language API
 
-<p align="center">
   When inputting tweets about natural disasters into the natural language API, Google frequently focused on the name of the disaster instead of the type first. For example, in our selections below, the tweets about the recent Hurricane Dorian were recognized as a person instead of a hurricane. We would like to have our API focus on the fact that it is a hurricane first and foremost in order to get through to our filtering process.
-</p>
 
 
 

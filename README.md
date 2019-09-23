@@ -4,6 +4,7 @@
 
 - Jennifer Campbell (U48001098)
 - Yanyu Zhang (U47793163)
+- David Henderson (U13104443)
 
 ## Project Mission
 - In order to bridge emergency response communications across social media platforms, our team is working to build a filtering app that allows for users to view tweets related to disasters happening in a selected location.

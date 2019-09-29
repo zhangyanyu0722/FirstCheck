@@ -62,64 +62,36 @@ def index(path, index_file):
     print('Texts indexed in file: {}'.format(index_file))
     return result
 
-def query_category(index_file, category_string, n_top=3):
-    """Find the indexed files that are the most similar to
-    the query label.
+if __name__ == '__main__':
 
-    The list of all available labels:
-    https://cloud.google.com/natural-language/docs/categories
-    """
+    #Okay, so this section is where I set up the call for classify. The sample works!
 
-    with io.open(index_file, 'r') as f:
-        index = json.load(f)
+    parser = argparse.ArgumentParser(
+      description=__doc__,
+      formatter_class=argparse.RawDescriptionHelpFormatter)
+    subparsers = parser.add_subparsers(dest='command')
+    classify_parser = subparsers.add_parser(
+      'classify', help=classify.__doc__)
+    classify_parser.add_argument(
+      'text', help='The text to be classified. '
+      'The text needs to have at least 20 tokens.')
 
-    # Make the category_string into a dictionary so that it is
-    # of the same format as what we get by calling classify.
-    query_categories = {category_string: 1.0}
+    #This is where I set up the indexer. We'll use this to classify the tweets stored as separate files.
+    #Runs perfectly! Now we just need to file the tweets into a json or separate text files.
 
-    similarities = []
-    for filename, categories in six.iteritems(index):
-        similarities.append(
-            (filename, similarity(query_categories, categories)))
+    index_parser = subparsers.add_parser(
+        'index', help=index.__doc__)
+    index_parser.add_argument(
+        'path', help='The directory that contains '
+        'text files to be indexed.')
+    index_parser.add_argument(
+        '--index_file', help='Filename for the output JSON.',
+        default='index.json')
 
-    similarities = sorted(similarities, key=lambda p: p[1], reverse=True)
+    args = parser.parse_args()
 
-    print('=' * 20)
-    print('Query: {}\n'.format(category_string))
-    print('\nMost similar {} indexed texts:'.format(n_top))
-    for filename, sim in similarities[:n_top]:
-        print('\tFilename: {}'.format(filename))
-        print('\tSimilarity: {}'.format(sim))
-        print('\n')
+    if args.command == 'classify':
+      classify(args.text)
 
-    return similarities
-
-def query(index_file, text, n_top=3):
-    """Find the indexed files that are the most similar to
-    the query text.
-    """
-
-    with io.open(index_file, 'r') as f:
-        index = json.load(f)
-
-    # Get the categories of the query text.
-    query_categories = classify(text, verbose=False)
-
-    similarities = []
-    for filename, categories in six.iteritems(index):
-        similarities.append(
-            (filename, similarity(query_categories, categories)))
-
-    similarities = sorted(similarities, key=lambda p: p[1], reverse=True)
-
-    print('=' * 20)
-    print('Query: {}\n'.format(text))
-    for category, confidence in six.iteritems(query_categories):
-        print('\tCategory: {}, confidence: {}'.format(category, confidence))
-    print('\nMost similar {} indexed texts:'.format(n_top))
-    for filename, sim in similarities[:n_top]:
-        print('\tFilename: {}'.format(filename))
-        print('\tSimilarity: {}'.format(sim))
-        print('\n')
-
-    return similarities
+    if args.command == 'index':
+      index(args.path, args.index_file)

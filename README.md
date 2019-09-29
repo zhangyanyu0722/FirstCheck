@@ -76,8 +76,9 @@
 
 - When inputting tweets about natural disasters into the natural language API, Google frequently focused on the name of the disaster instead of the type first. For example, in our selections below, the tweets about the recent Hurricane Dorian were recognized as a person instead of a hurricane. We would like to have our API focus on the fact that it is a hurricane first and foremost in order to get through to our filtering process.
 
--We ran into some initial difficulties utilizing the NL API. The index function in the sample provided only sorts individual files, so we had the choice to either give each tweet its own file (which takes up unnecessary space), or change the function to index by each chink of text in the file.
+- We ran into some initial difficulties utilizing the NL API. The index function in the sample provided only sorts individual files, so we had the choice to either give each tweet its own file (which takes up unnecessary space), or change the function to index by each chink of text in the file.
 
+- There is also a secondary issue that the NL API does not classify by individual words as easily, moreso topics and themes.
 
 
 

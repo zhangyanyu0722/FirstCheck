@@ -4,13 +4,13 @@ import csv
 
 import string
   
-consumer_key = 'ntuZVFbMoVQI2yW7TdvnHwzlD' 
+consumer_key = '' 
 
-consumer_secret = 'bzz5EAdP7s7WnHbUt3gdgwEkZBzqGYM2hbF0b2K96avqIRbGV4' 
+consumer_secret = '' 
 
-access_token = '1176213979343020034-ghllTjFW0Vs3ahMYHt1s2XcLx5x6ZD' 
+access_token = '' 
 
-access_token_secret = '7YqlPmH7n8H6slUqrnKA2A6ABrQB6KfY0r3UNGyFCqEtP'  
+access_token_secret = ''  
   
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)  
 

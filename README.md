@@ -4,7 +4,6 @@
   
   <a href="https://docs.google.com/presentation/d/11-jlRNnnwyELKESdG6k7fvwvgQGAvKY6rJiQV4QFgRs/edit?usp=sharing">Overview</a>
 </p>
-<a href="https://docs.google.com/presentation/d/11-jlRNnnwyELKESdG6k7fvwvgQGAvKY6rJiQV4QFgRs/edit?usp=sharing">Overview</a>
 
 ## Team Members
 

@@ -1,4 +1,9 @@
 # Mini-project-1: First Check
+<p align="center">
+  <img src= "https://github.com/zhangyanyu0722/Mini-project-1/blob/master/picture/first%20check%20pic.png">
+  
+  <a href="https://docs.google.com/presentation/d/11-jlRNnnwyELKESdG6k7fvwvgQGAvKY6rJiQV4QFgRs/edit?usp=sharing">Overview</a>
+</p>
 <a href="https://docs.google.com/presentation/d/11-jlRNnnwyELKESdG6k7fvwvgQGAvKY6rJiQV4QFgRs/edit?usp=sharing">Overview</a>
 
 ## Team Members

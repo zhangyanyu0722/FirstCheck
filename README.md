@@ -1,14 +1,17 @@
-# Mini-project-1: Tweet-Aid
+# Mini-project-1: First Check
+<p align="center">
+  <a href="https://docs.google.com/presentation/d/11-jlRNnnwyELKESdG6k7fvwvgQGAvKY6rJiQV4QFgRs/edit?usp=sharing">Overview</a>
+</p>
 
 ## Team Members
 
 - Jennifer Campbell (U48001098)
 - Yanyu Zhang (U47793163)
+- David Henderson (U13104443)
 
 ## Project Mission
-<p align="center">
-  In order to bridge emergency response communications across social media platforms, our team is working to build a filtering app that allows for users to view tweets related to disasters happening in a selected location.
-</p>
+- In order to bridge emergency response communications across social media platforms, our team is working to build a filtering app that allows for users to view tweets related to disasters happening in a selected location.
+
 
 ## User Stories
 
@@ -26,6 +29,14 @@
 4. Using natural language API, the sentiment will determine whether the poster of the tweet is in need of assistance or is safe.
 5. The user will then choose to take action if the poster is deemed to be unsafe.
 6. If the tweet’s sentiment is considered safe, the app will continue through to the next tweet until one is determined to be unsafe.
+<p align="center">
+  <img src= "https://github.com/zhangyanyu0722/Mini-project-1/blob/jennifercampbell/flowchart.png">
+</p>
+
+
+
+
+
 
 ## Types of Twitter feeds being focused on
 
@@ -66,10 +77,14 @@
 
 ## Analysis of Twitter API, Google Vision, and Google Natural Language API
 
-<p align="center">
-  When inputting tweets about natural disasters into the natural language API, Google frequently focused on the name of the disaster instead of the type first. For example, in our selections below, the tweets about the recent Hurricane Dorian were recognized as a person instead of a hurricane. We would like to have our API focus on the fact that it is a hurricane first and foremost in order to get through to our filtering process.
-</p>
+- When inputting tweets about natural disasters into the natural language API, Google frequently focused on the name of the disaster instead of the type first. For example, in our selections below, the tweets about the recent Hurricane Dorian were recognized as a person instead of a hurricane. We would like to have our API focus on the fact that it is a hurricane first and foremost in order to get through to our filtering process.
 
+- We ran into some initial difficulties utilizing the NL API. The index function in the sample provided only sorts individual files, so we had the choice to either give each tweet its own file (which takes up unnecessary space), or change the function to index by each chink of text in the file.
 
+- There is also a secondary issue that the NL API does not classify by individual words as easily, moreso topics and themes.
+
+## Updates
+
+- 9/29/19: Decided to use IBM Natural Language API instead of Google. IBM has a larger keyword and entity dictionary by which it categorizes phrases, and therefore is easier to implement when searching for natural disasters and locations.
 
 

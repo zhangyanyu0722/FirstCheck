@@ -20,5 +20,19 @@ def classify(entry):
   print(json.dumps(response, indent=2))
 
 if __name__ == '__main__':
-  textin = input("Please insert a phrase: ")
-  classify(textin)
+  textin = input("Text file to be read: ")
+  openfile = open(textin)
+  readfile = openfile.read()
+  filelines = readfile.readlines()
+
+  for i, line in enumerate(filelines):
+    readline = openfile.readlines()[i]
+    tweetstart = readtweet.startswith('[BEGIN]')
+
+    print(tweetstart)
+
+    if tweetstart == True:
+      tweetread = readline.strip('[BEGIN]')
+      classify(tweetread)
+
+  # classify(read.readlines()[0])

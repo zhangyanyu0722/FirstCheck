@@ -21,18 +21,18 @@ def classify(entry):
 
 if __name__ == '__main__':
   textin = input("Text file to be read: ")
-  openfile = open(textin)
-  readfile = openfile.read()
-  filelines = readfile.readlines()
+  openfile = open(textin,"r")
+  # readfile = openfile.read()
+  filelines = openfile.readlines()
 
-  for i, line in enumerate(filelines):
-    readline = openfile.readlines()[i]
-    tweetstart = readtweet.startswith('[BEGIN]')
+  print(openfile.read())
 
-    print(tweetstart)
+  # for i in range(0, len(filelines)-1):
+  #   readline = openfile.readlines()[i]
+  #   tweetstart = readline.startswith('[BEGIN]')
 
-    if tweetstart == True:
-      tweetread = readline.strip('[BEGIN]')
-      classify(tweetread)
+  #   if tweetstart == True:
+  #     tweetread = readline.strip('[BEGIN]')
+  #     classify(tweetread)
 
   # classify(read.readlines()[0])

@@ -4,12 +4,12 @@
 #
 # Created by: PyQt5 UI code generator 5.13.1
 #
-# WARNING! All changes made in this file will be lost!
 
+import sys
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-
+# Creating the GUI
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -63,6 +63,8 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+      
+        self.runButton.clicked.connect(self.run_tweets)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
@@ -75,7 +77,19 @@ class Ui_MainWindow(object):
         self.hurricaneBox.setText(_translate("MainWindow", "Hurricane"))
         self.checkBox.setText(_translate("MainWindow", "Tornado"))
 
+    #calling the API functions.
+    def run_tweets(self):
+      if self.earthquakeBox.check() == True:
 
+      else if self.hurricaneBox.check() == True:
+
+      else if self.floodBox.check() == True:
+
+      else if self.checkBox.check() == True:
+
+
+
+    
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)

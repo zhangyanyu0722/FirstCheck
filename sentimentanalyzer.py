@@ -1,4 +1,5 @@
 import json
+import sys
 
 from ibm_watson import NaturalLanguageUnderstandingV1
 from ibm_watson.natural_language_understanding_v1 \
@@ -13,12 +14,19 @@ def classify(entry):
   response = natural_language_understanding.analyze(
     text=entry,
     features=Features(
-        entities=EntitiesOptions(emotion=True, sentiment=True, limit=7),
+        entities=EntitiesOptions(emotion=True, sentiment=True, limit=20),
         keywords=KeywordsOptions(emotion=True, sentiment=True,
-                                 limit=7))).get_result()
+                                 limit=20))).get_result()
 
   print(json.dumps(response, indent=2))
 
 if __name__ == '__main__':
-  textin = input("Please insert a phrase: ")
-  classify(textin)
+  textin = sys.argv[1]
+  openfile = open(textin,"r")
+  readfile = openfile.read()
+  tweetstrings = readfile.split('[BEGIN]')
+  tweets = [x.strip() for x in tweetstrings if len(x) != 0]
+  # tweets = [x.replace('\n+', ' ') for x in tweets]
+
+  for tweet in tweets:
+    classify(tweet)

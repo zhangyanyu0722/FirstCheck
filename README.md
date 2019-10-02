@@ -87,4 +87,4 @@
 
 - 9/29/19: Decided to use IBM Natural Language API instead of Google. IBM has a larger keyword and entity dictionary by which it categorizes phrases, and therefore is easier to implement when searching for natural disasters and locations.
 
-
+- 10/2/19: MVP released. Still unable to list all tweets due to IBM character limits.

@@ -29,60 +29,60 @@ def search_tweets(disastor, number):
 
 				f.write('[BEGIN]' + tweet._json['text'] + '\n\n')
 
-	emergency_tweets = []
+# 	emergency_tweets = []
 
-	csv_file = csv.reader(open("us_cities_states_counties.csv",'r'))
+# 	csv_file = csv.reader(open("us_cities_states_counties.csv",'r'))
 
-	city_list = []
+# 	city_list = []
 
-	for stu in csv_file:
+# 	for stu in csv_file:
 
-		city_list.append(stu)
+# 		city_list.append(stu)
 
-	city_split = []
+# 	city_split = []
 
-	state_split = []
+# 	state_split = []
 
-	k = len(city_list)-1
+# 	k = len(city_list)-1
 
-	for cities in range(len(city_list)-1):
+# 	for cities in range(len(city_list)-1):
 
-		a = city_list[cities+1][0].split("|")
+# 		a = city_list[cities+1][0].split("|")
 
-		city_split.append(a[0])
+# 		city_split.append(a[0])
 
-		state_split.append(a[2])
+# 		state_split.append(a[2])
 
-	all_cities = city_split + state_split
+# 	all_cities = city_split + state_split
 
-	for i in index:
+# 	for i in index:
 
-		for j in all_cities:
+# 		for j in all_cities:
 
-			if str(i).find(j) < 0:
+# 			if str(i).find(j) < 0:
 
-				# normal_tweets.append(i)
+# 				# normal_tweets.append(i)
 
-				continue
+# 				continue
 
-			else:
+# 			else:
 
-		  	  	emergency_tweets.append(i)
+# 		  	  	emergency_tweets.append(i)
 
-		   	 	break
-	# print("emergency_tweets : ")
+# 		   	 	break
+# 	# print("emergency_tweets : ")
 
-	index_1 = []
+# 	index_1 = []
 
-	for key in emergency_tweets:
+# 	for key in emergency_tweets:
 
-		index_1.append(key)
+# 		index_1.append(key)
 
-		# print(tweet._json['text'])
+# 		# print(tweet._json['text'])
 
-		with open("filter_dis.txt", 'a') as f:
+# 		with open("filter_dis.txt", 'a') as f:
 
-			f.write('[BEGIN]' + key + '\n\n')
+# 			f.write('[BEGIN]' + key + '\n\n')
 
 
 

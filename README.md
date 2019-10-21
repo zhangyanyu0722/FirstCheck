@@ -86,7 +86,9 @@
 ## How to Use
 
 - Download FirstCheck_UI.py, first_check.py, firstcheckmain.py, sentimentanalyzer.py, and us_cities_states_counties.csv
+- Install <a href="https://www.tweepy.org/">Tweepy</a> to utilize the Twitter Python library used in the code
 - Create an <a href="https://cloud.ibm.com/docs/services/watson?topic=watson-about#about">IBM Cloud account</a> to access use of the <a href="https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding">Natural Language API</a>
+- Create a <a href="https://developer.twitter.com/">Twitter Developer</a> account to access use of live Tweets
 - Run FirstCheck_UI with the command "python FirstCheck_UI.py"; a window should open with command options
 - To test the system works, select "Earthquake" and then input city name as "Washington DC"
   - Output should be fed back to you through the terminal, listing words related to earthquakes in the area of Washington DC with positive/negative sentiments applied

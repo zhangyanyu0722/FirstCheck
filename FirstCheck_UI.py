@@ -7,6 +7,10 @@
 
 import sys
 
+from sentimentanalyzer import classify
+from first_check import search_tweets
+
+
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 # Creating the GUI
@@ -79,14 +83,85 @@ class Ui_MainWindow(object):
 
     #calling the API functions.
     def run_tweets(self):
-      if self.earthquakeBox.check() == True:
+      if (self.earthquakeBox.isChecked()):
+        disaster="earthquake"
+        number=200
+        textBoxVal=self.locationEntry.text()
+        location=textBoxVal
 
-      else if self.hurricaneBox.check() == True:
+        search_tweets(disaster, number)
 
-      else if self.floodBox.check() == True:
+        openfile = open("all_dis.txt","r")
+        readfile = openfile.read()
+        tweetstrings = readfile.split('[BEGIN]')
+        tweets = [x.strip() for x in tweetstrings if len(x) != 0]
+        # tweets = [x.replace('\n+', ' ') for x in tweets]
 
-      else if self.checkBox.check() == True:
+        for tweet in tweets:
+          classifiedtweet = classify(tweet)
+          if any(location in classifiedtweet):
+            writingtweet = open("disastertweets.txt","x+")
+            writingtweet.write(classifiedtweet)
 
+      elif (self.hurricaneBox.isChecked()):
+        disaster="hurricane"
+        number=200
+        textBoxVal=self.locationEntry.text()
+        location=textBoxVal
+
+        search_tweets(disaster, number)
+
+        openfile = open("all_dis.txt","r")
+        readfile = openfile.read()
+        tweetstrings = readfile.split('[BEGIN]')
+        tweets = [x.strip() for x in tweetstrings if len(x) != 0]
+        # tweets = [x.replace('\n+', ' ') for x in tweets]
+
+        for tweet in tweets:
+          classifiedtweet = classify(tweet)
+          if any(location in classifiedtweet):
+            writingtweet = open("disastertweets.txt","x+")
+            writingtweet.write(classifiedtweet)
+
+      elif (self.floodBox.isChecked()):
+        disaster="flood"
+        number=200
+        textBoxVal=self.locationEntry.text()
+        location=textBoxVal
+
+        search_tweets(disaster, number)
+
+        openfile = open("all_dis.txt","r")
+        readfile = openfile.read()
+        tweetstrings = readfile.split('[BEGIN]')
+        tweets = [x.strip() for x in tweetstrings if len(x) != 0]
+        # tweets = [x.replace('\n+', ' ') for x in tweets]
+
+        for tweet in tweets:
+          classifiedtweet = classify(tweet)
+          if any(location in classifiedtweet):
+            writingtweet = open("disastertweets.txt","x+")
+            writingtweet.write(classifiedtweet)
+
+      elif (self.checkBox.isChecked()):
+        disaster="tornado"
+        number=200
+        textBoxVal=self.locationEntry.text()
+        location=textBoxVal
+
+        search_tweets(disaster, number)
+
+        openfile = open("all_dis.txt","r")
+        readfile = openfile.read()
+        tweetstrings = readfile.split('[BEGIN]')
+        tweets = [x.strip() for x in tweetstrings if len(x) != 0]
+        # tweets = [x.replace('\n+', ' ') for x in tweets]
+
+        for tweet in tweets:
+          classifiedtweet = classify(tweet)
+          if any(location in classifiedtweet):
+            writingtweet = open("disastertweets.txt","x+")
+            writingtweet.write(classifiedtweet)
 
 
     

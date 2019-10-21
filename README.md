@@ -88,7 +88,7 @@
 - Download FirstCheck_UI.py, first_check.py, firstcheckmain.py, sentimentanalyzer.py, and us_cities_states_counties.csv
 - Run FirstCheck_UI with the command "python FirstCheck_UI.py"; a window should open with command options
 - To test the system works, select "Earthquake" and then input city name as "Washington DC"
--- Output should be fed back to you through the terminal, listing words related to earthquakes in the area of Washington DC with positive/negative sentiments applied
+  - Output should be fed back to you through the terminal, listing words related to earthquakes in the area of Washington DC with positive/negative sentiments applied
 
 ## Updates
 

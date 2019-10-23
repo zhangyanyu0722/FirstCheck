@@ -1,4 +1,4 @@
-vimport tweepy 
+import tweepy 
 import csv  
 import string
 
